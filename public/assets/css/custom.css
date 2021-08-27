@@ -1,0 +1,62 @@
+.theme-cyan .page-loader-wrapper{
+    background:#49c5b645;
+}
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid #fff;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #fff transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+    transform: rotate(360deg);
+    }
+}
+.table tr td,.table tr th{
+    padding-top:3px;
+    padding-bottom:3px;
+}
+.table-style1 tr td,
+.table-style1 tr th{
+    padding-top:4px;
+    padding-bottom:4px;
+    font-size:13px;
+}
+.table-nowrap tr td{
+    white-space:unset !important;
+}
+.select2-selection__placeholder{
+    color:#495057 !important;
+}
+
+.select2-container .select2-selection--single {
+    min-height: 36px;
+    height: auto !important;
+}
+.select2-selection__rendered {
+    white-space: break-spaces !important;
+}
